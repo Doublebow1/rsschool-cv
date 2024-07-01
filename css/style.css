@@ -12,7 +12,7 @@ section {
 	padding: 20px 30px;
 	border-radius: 20px;
 }
-h3 {
+h2 {
 	font-size: 30px;
 }
 a {
@@ -55,6 +55,7 @@ li {
 }
 .header__links {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 30px;
 	font-size: 18px;
 	margin-right: 30px;
@@ -73,8 +74,19 @@ li {
 .about__text p{
 	line-height: 140%;
 	font-size: 20px;
-	width: 700px;
 	padding: 10px;
+}
+
+.code {
+	background-color: rgb(91, 158, 19);
+}
+
+.education {
+	background-color: darkorchid;
+}
+
+.projects {
+	background-color: lightseagreen;
 }
 
 .skills {
@@ -91,4 +103,20 @@ li {
 .languages__text {
 	line-height: 130%;
 	font-size: 20px;
+}
+
+.footer {
+	border-radius: 20px;
+	background-color: darkturquoise;
+	display: flex;
+	align-items: center;justify-content: space-around;
+	font-size: 20px;
+	color: #000;
+}
+.rs-logo img {
+	width: 150px;
+	height: 150px;
+}
+.git-hub a{
+	color: #000;
 }
