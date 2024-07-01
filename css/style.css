@@ -10,6 +10,7 @@ body {
 }
 section {
 	padding: 20px 30px;
+	border-radius: 20px;
 }
 h3 {
 	font-size: 30px;
@@ -37,14 +38,21 @@ li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border-radius: 20px;
 }
-
+.header__img {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
 .header__img img{
 	border-radius: 50%;
 	width: 130px;
 	height: 130px;
 }
-
+.header__img p{
+	font-size: 40px;
+}
 .header__links {
 	display: flex;
 	gap: 30px;
@@ -65,6 +73,8 @@ li {
 .about__text p{
 	line-height: 140%;
 	font-size: 20px;
+	width: 700px;
+	padding: 10px;
 }
 
 .skills {
